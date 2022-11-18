@@ -3,12 +3,13 @@
 
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
+set encoding=UTF-8
 
 set number
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
-set wrap                              " Display long lines as just one line
+set nowrap                              " Display long lines as just one line
 set whichwrap+=<,>,[,],h,l
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller

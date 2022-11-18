@@ -35,3 +35,6 @@ let g:airline_theme = 'pop_punk'
 " just for fun
 let g:airline_section_c = '🎸 %F'
 
+let g:airline_powerline_fonts = 1
+
+
