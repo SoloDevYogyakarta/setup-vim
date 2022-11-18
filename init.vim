@@ -19,7 +19,19 @@ source $HOME/.config/nvim/coc-settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/lighthaus.vim
-source $HOME/.config/nvim/plugins/cyberspace.vim
+source $HOME/.config/nvim/plugins/pop-punk.vim
+
 
 call plug#end()
+
+colorscheme pop-punk
+
+" pop-punk ANSI colors for vim terminal
+let g:terminal_ansi_colors = pop_punk#AnsiColors()
+
+" for the airline theme - note the underscore instead of the hyphen
+let g:airline_theme = 'pop_punk'
+
+" just for fun
+let g:airline_section_c = '🎸 %F'
+
