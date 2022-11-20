@@ -36,5 +36,11 @@ let g:coc_global_extensions = [
   \ '@yaegassy/coc-intelephense',
   \ 'coc-git',
   \ 'coc-jest',
-  \ 'coc-protobuf']
+  \ 'coc-protobuf',
+  \ 'coc-flutter',
+  \ 'coc-angular',
+  \ 'coc-vetur']
+" Flutter action
 
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)

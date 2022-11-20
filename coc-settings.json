@@ -6,5 +6,7 @@
   "git.changedSign.text": "+",
   "git.addedSign.text": "+",
   "git.removedSign.text": "-",
-  "git.changeRemovedSign.text": "-"
+  "git.changeRemovedSign.text": "-",
+  "flutter.lsp.initialization.onlyAnalyzeProjectsWithOpenFiles": true,
+  "flutter.lsp.initialization.suggestFromUnimportedLibraries": true
 }
