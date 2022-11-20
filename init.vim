@@ -8,7 +8,6 @@ source $HOME/.config/nvim/plugins/commentary.vim
 source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/scrollsmhooth.vim
-source $HOME/.config/nvim/plugins/telescope.vim
 source $HOME/.config/nvim/plugins/multicursor.vim
 source $HOME/.config/nvim/plugins/fugitive.vim
 
