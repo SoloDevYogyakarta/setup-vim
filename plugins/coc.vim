@@ -39,7 +39,10 @@ let g:coc_global_extensions = [
   \ 'coc-protobuf',
   \ 'coc-flutter',
   \ 'coc-angular',
-  \ 'coc-vetur']
+  \ 'coc-vetur',
+  \ 'coc-rust-analyzer',
+  \ 'coc-rls']
+
 " Flutter action
 
 xmap <leader>a  <Plug>(coc-codeaction-selected)
