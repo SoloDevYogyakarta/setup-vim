@@ -11,6 +11,7 @@ source $HOME/.config/nvim/plugins/scrollsmhooth.vim
 source $HOME/.config/nvim/plugins/multicursor.vim
 source $HOME/.config/nvim/plugins/fugitive.vim
 source $HOME/.config/nvim/plugins/tailwind.vim
+source $HOME/.config/nvim/plugins/barbar.vim
 
 " Settings
 
@@ -21,11 +22,13 @@ source $HOME/.config/nvim/coc-settings.vim
 
 source $HOME/.config/nvim/plugins/pop-punk.vim
 source $HOME/.config/nvim/plugins/darkdest-space.vim
+source $HOME/.config/nvim/plugins/vscode-colorscheme.vim
 
 
 call plug#end()
 
 colorscheme darkest-space
+" colorscheme vscode
 
 " pop-punk ANSI colors for vim terminal
 let g:terminal_ansi_colors = pop_punk#AnsiColors()
