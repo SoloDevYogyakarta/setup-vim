@@ -8,5 +8,8 @@
   "git.removedSign.text": "-",
   "git.changeRemovedSign.text": "-",
   "flutter.lsp.initialization.onlyAnalyzeProjectsWithOpenFiles": true,
-  "flutter.lsp.initialization.suggestFromUnimportedLibraries": true
+  "flutter.lsp.initialization.suggestFromUnimportedLibraries": true,
+  "angular.trace.server": true,
+  "angular.suggest.includeCompletionsWithSnippetText": true,
+  "tailwindCSS.enable": true
 }

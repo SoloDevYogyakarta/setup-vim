@@ -41,9 +41,13 @@ let g:coc_global_extensions = [
   \ 'coc-angular',
   \ 'coc-vetur',
   \ 'coc-rust-analyzer',
-  \ 'coc-rls']
+  \ 'coc-rls',
+  \ 'coc-angular',
+  \ '@yaegassy/coc-tailwindcss3']
 
 " Flutter action
 
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
+
+  au FileType html let b:coc_root_patterns = ['.git', '.env', 'tailwind.config.js', 'tailwind.config.cjs']
