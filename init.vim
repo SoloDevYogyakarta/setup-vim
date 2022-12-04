@@ -10,6 +10,7 @@ source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/scrollsmhooth.vim
 source $HOME/.config/nvim/plugins/multicursor.vim
 source $HOME/.config/nvim/plugins/fugitive.vim
+source $HOME/.config/nvim/plugins/automatic-import.vim
 
 " Settings
 
@@ -18,6 +19,7 @@ source $HOME/.config/nvim/coc-settings.vim
 
 " Colorscheme
 
+source $HOME/.config/nvim/plugins/xcode.vim
 
 call plug#end()
 
