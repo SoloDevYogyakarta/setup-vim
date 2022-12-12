@@ -11,6 +11,7 @@ source $HOME/.config/nvim/plugins/scrollsmhooth.vim
 source $HOME/.config/nvim/plugins/multicursor.vim
 source $HOME/.config/nvim/plugins/fugitive.vim
 source $HOME/.config/nvim/plugins/automatic-import.vim
+" source $HOME/.config/nvim/plugins/indentline.vim
 
 " Settings
 
@@ -19,9 +20,13 @@ source $HOME/.config/nvim/coc-settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/xcode.vim
+" source $HOME/.config/nvim/plugins/xcode.vim
+" source $HOME/.config/nvim/plugins/macvim.vim
+source $HOME/.config/nvim/plugins/eva.vim
 
 call plug#end()
+
+colorscheme eva01
 
 let g:airline_section_c = '🎸 %F'
 
@@ -29,3 +34,6 @@ let g:airline_powerline_fonts = 1
 let g:NERDTreeWinSize=24
 
 set termguicolors     " enable true colors support
+
+" let g:indentLine_defaultGroup = 'LeadingSpace'
+" let g:indentLine_char_list = ['|', '¦', '┆', '┊']
