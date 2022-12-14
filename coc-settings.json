@@ -11,5 +11,7 @@
   "flutter.lsp.initialization.suggestFromUnimportedLibraries": true,
   "angular.trace.server": true,
   "angular.suggest.includeCompletionsWithSnippetText": true,
-  "tailwindCSS.enable": true
+  "tailwindCSS.enable": true,
+  "tsserver.enable": true,
+  "tsserver.enableTracing": true
 }

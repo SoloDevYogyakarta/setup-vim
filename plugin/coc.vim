@@ -19,6 +19,8 @@ let g:coc_global_extensions = [
   \ 'coc-prettier',
   \ 'coc-vimlsp',
   \ 'coc-xml',
+  \ 'coc-tslint',
+  \ 'coc-diagnostic',
   \ 'coc-json',
   \ 'coc-go',
   \ 'coc-git',
