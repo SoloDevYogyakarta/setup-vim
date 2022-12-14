@@ -11,8 +11,9 @@ source $HOME/.config/nvim/plugin/multicursor.vim
 source $HOME/.config/nvim/plugin/commentary.vim
 source $HOME/.config/nvim/plugin/coc.vim
 
-" Cog
+" Settings
 
 source $HOME/.config/nvim/setting.vim
+source $HOME/.config/nvim/coc-setting.vim
 
 call plug#end()
