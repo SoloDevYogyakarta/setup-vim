@@ -20,13 +20,7 @@ source $HOME/.config/nvim/coc-settings.vim
 
 " Colorscheme
 
-" source $HOME/.config/nvim/plugins/xcode.vim
-" source $HOME/.config/nvim/plugins/macvim.vim
-source $HOME/.config/nvim/plugins/eva.vim
-
 call plug#end()
-
-colorscheme eva01
 
 let g:airline_section_c = '🎸 %F'
 
