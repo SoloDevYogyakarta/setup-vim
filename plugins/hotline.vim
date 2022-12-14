@@ -1,1 +1,0 @@
-Plug 'ronwoch/hotline-vim'

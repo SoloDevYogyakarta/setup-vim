@@ -1,33 +1,18 @@
-" Author : Kenedy Nopriansyah
-" Email : kenedivsyh_@outlook.co.id
+" Author: Kenedy Novriansyah
+" Email: kenedinvsyh_@outlook.co.id
 
 call plug#begin()
 
-source $HOME/.config/nvim/plugins/nerdTree.vim
-source $HOME/.config/nvim/plugins/commentary.vim
-source $HOME/.config/nvim/plugins/coc.vim
-source $HOME/.config/nvim/plugins/airline.vim
-source $HOME/.config/nvim/plugins/scrollsmhooth.vim
-source $HOME/.config/nvim/plugins/multicursor.vim
-source $HOME/.config/nvim/plugins/fugitive.vim
-source $HOME/.config/nvim/plugins/automatic-import.vim
-" source $HOME/.config/nvim/plugins/indentline.vim
+" Plugin
 
-" Settings
+source $HOME/.config/nvim/plugin/nerdtree.vim
+source $HOME/.config/nvim/plugin/smoothie.vim
+source $HOME/.config/nvim/plugin/multicursor.vim
+source $HOME/.config/nvim/plugin/commentary.vim
+source $HOME/.config/nvim/plugin/coc.vim
 
-source $HOME/.config/nvim/settings.vim
-source $HOME/.config/nvim/coc-settings.vim
+" Cog
 
-" Colorscheme
+source $HOME/.config/nvim/setting.vim
 
 call plug#end()
-
-let g:airline_section_c = '🎸 %F'
-
-let g:airline_powerline_fonts = 1
-let g:NERDTreeWinSize=24
-
-set termguicolors     " enable true colors support
-
-" let g:indentLine_defaultGroup = 'LeadingSpace'
-" let g:indentLine_char_list = ['|', '¦', '┆', '┊']
