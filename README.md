@@ -1,4 +1,4 @@
-# Setup NVIM
+# Setup VIM
 
 #### Author : Kenedy Nopriansyah
 
