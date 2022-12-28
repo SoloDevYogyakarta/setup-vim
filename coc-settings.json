@@ -1,17 +1,12 @@
 {
-  "snippets.ultisnips.pythonPrompt": false,
-  "coc.preferences.formatOnSave": true,
-  "coc.preferences.formatOnSaveFiletypes": ["*"],
   "git.changedDecorator": "*",
   "git.changedSign.text": "+",
   "git.addedSign.text": "+",
   "git.removedSign.text": "-",
   "git.changeRemovedSign.text": "-",
-  "flutter.lsp.initialization.onlyAnalyzeProjectsWithOpenFiles": true,
-  "flutter.lsp.initialization.suggestFromUnimportedLibraries": true,
-  "angular.trace.server": true,
-  "angular.suggest.includeCompletionsWithSnippetText": true,
-  "tailwindCSS.enable": true,
+  "coc.preferences.formatOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
   "tsserver.enable": true,
-  "tsserver.enableTracing": true
+  "tsserver.enableTracing": true,
+  "tailwindCSS.enable": true
 }
