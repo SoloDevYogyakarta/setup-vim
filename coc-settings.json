@@ -8,5 +8,8 @@
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "tsserver.enable": true,
   "tsserver.enableTracing": true,
-  "tailwindCSS.enable": true
+  "tailwindCSS.enable": true,
+  "vimlsp.debug": true,
+  "vimlsp.diagnostic.enable": true,
+  "vimlsp.indexes.runtimepath": true
 }
