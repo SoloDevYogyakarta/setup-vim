@@ -1,5 +1,5 @@
 " Author : Kenedy Nopriansyah
-" Email : kenedivsyh_@outlook.co.id
+" Email : kenedinvsyh_@outlook.co.id
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

@@ -1,24 +1,22 @@
 " Author : Kenedy Nopriansyah
-" Email : kenedivsyh_@outlook.co.id
+" Email : kenedinvsyh_@outlook.co.id
 
 call plug#begin()
 
-" Plugin
+" Plug
 
-source $HOME/.config/nvim/plugin/nerdtree.vim
-source $HOME/.config/nvim/plugin/commentary.vim
-source $HOME/.config/nvim/plugin/multicursor.vim
-source $HOME/.config/nvim/plugin/scrollsmooth.vim
-source $HOME/.config/nvim/plugin/airline.vim
-source $HOME/.config/nvim/plugin/coc.vim
+source $HOME/.config/nvim/plugins/tree.vim
+source $HOME/.config/nvim/plugins/coc.vim
+source $HOME/.config/nvim/plugins/scrollmooth.vim
+source $HOME/.config/nvim/plugins/multicursor.vim
+source $HOME/.config/nvim/plugins/airline.vim
+source $HOME/.config/nvim/plugins/pop-punk.vim
 
-" =================
+" Settings
 
-source $HOME/.config/nvim/setting.vim
+source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
-
-source $HOME/.config/nvim/plugin/spacecamp.vim
 
 call plug#end()
 
@@ -34,4 +32,3 @@ let g:airline_theme = 'pop_punk'
 let g:airline_section_c = '🎸 %F'
 
 let g:NERDTreeWinSize=25
-
