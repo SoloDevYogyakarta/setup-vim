@@ -1,1 +1,0 @@
-Plug 'thedenisnikulin/vim-cyberpunk'

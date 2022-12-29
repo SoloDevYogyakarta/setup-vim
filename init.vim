@@ -18,15 +18,12 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/pop-punk.vim
-source $HOME/.config/nvim/plugins/cyberpunk.vim
-
 call plug#end()
 
 " colorscheme pop-punk
 
 " pop-punk ANSI colors for vim terminal
-let g:terminal_ansi_colors = pop_punk#AnsiColors()
+" let g:terminal_ansi_colors = pop_punk#AnsiColors()
 
 " for the airline theme - note the underscore instead of the hyphen
 " let g:airline_theme = 'pop_punk'
@@ -34,11 +31,5 @@ let g:terminal_ansi_colors = pop_punk#AnsiColors()
 " just for fun
 let g:airline_section_c = '🎸 %F'
 
-let g:NERDTreeWinSize=24
+let g:NERDTreeWinSize=22
 
-set termguicolors
-colorscheme cyberpunk
-let g:airline_theme='cyberpunk'
-
-set cursorline
-let g:cyberpunk_cursorline="black"
