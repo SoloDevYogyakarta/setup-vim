@@ -14,7 +14,7 @@ let g:coc_global_extensions = [
   \ 'coc-cssmodules',
   \ 'coc-angular',
   \ '@yaegassy/coc-tailwindcss3',
-  \ 'coc-vimlsp']
+  \ 'coc-bootstrap-classname']
 
 autocmd FileType scss setl iskeyword+=@-@
 
