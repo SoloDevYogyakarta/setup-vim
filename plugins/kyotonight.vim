@@ -1,3 +1,0 @@
-Plug 'voidekh/kyotonight.vim'
-
-
