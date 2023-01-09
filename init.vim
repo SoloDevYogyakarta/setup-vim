@@ -18,24 +18,19 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/sky.vim
+source $HOME/.config/nvim/plugins/pop-punk.vim
 
 call plug#end()
 
-" Recommended: 24bit colors.
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+colorscheme pop-punk
 
-" Set color scheme to sky.
-colorscheme sky
+" pop-punk ANSI colors for vim terminal
+let g:terminal_ansi_colors = pop_punk#AnsiColors()
 
-" Recommended: continuous vertical split line.
-set fillchars=vert:\│
-
-" Recommended: Set airline theme to sky.
-let g:airline_theme='sky'
+" for the airline theme - note the underscore instead of the hyphen
+let g:airline_theme = 'pop_punk'
 
 let g:airline_section_c = '🎸 %F'
 
-let g:NERDTreeWinSize=20
+let g:NERDTreeWinSize=24
 
-set termguicolors
