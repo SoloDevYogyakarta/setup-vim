@@ -11,6 +11,9 @@ source $HOME/.config/nvim/plugins/scrollmooth.vim
 source $HOME/.config/nvim/plugins/multicursor.vim
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/commentary.vim
+source $HOME/.config/nvim/plugins/telescope.vim
+source $HOME/.config/nvim/plugins/ale.vim
+source $HOME/.config/nvim/plugins/devicons.vim
 
 " Settings
 
@@ -18,19 +21,13 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/pop-punk.vim
+source $HOME/.config/nvim/plugins/cobalt2.vim
 
 call plug#end()
 
-colorscheme pop-punk
-
-" pop-punk ANSI colors for vim terminal
-let g:terminal_ansi_colors = pop_punk#AnsiColors()
-
-" for the airline theme - note the underscore instead of the hyphen
-let g:airline_theme = 'pop_punk'
+colorscheme cobalt2
 
 let g:airline_section_c = '🎸 %F'
 
-let g:NERDTreeWinSize=24
+let g:NERDTreeWinSize=32
 
