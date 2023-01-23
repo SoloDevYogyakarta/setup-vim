@@ -21,13 +21,11 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/cobalt2.vim
-
 call plug#end()
 
-colorscheme cobalt2
+colorscheme elflord
 
 let g:airline_section_c = '🎸 %F'
 
-let g:NERDTreeWinSize=32
+let g:NERDTreeWinSize=26
 
