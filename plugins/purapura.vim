@@ -1,0 +1,1 @@
+Plug 'yassinebridi/vim-purpura'
