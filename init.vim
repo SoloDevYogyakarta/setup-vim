@@ -21,11 +21,11 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-call plug#end()
+source $HOME/.config/nvim/plugins/hackerman.vim
 
-colorscheme elflord
+call plug#end()
 
 let g:airline_section_c = '🎸 %F'
 
-let g:NERDTreeWinSize=26
+let g:NERDTreeWinSize=28
 

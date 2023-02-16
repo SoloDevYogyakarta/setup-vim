@@ -9,6 +9,7 @@ let g:coc_global_extensions = [
   \ 'coc-prettier',
   \ 'coc-pairs',
   \ 'coc-emmet',
+  \ 'coc-java',
   \ 'coc-stylelint',
   \ 'coc-git',
   \ 'coc-css',
