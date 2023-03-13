@@ -22,10 +22,18 @@ source $HOME/.config/nvim/settings.vim
 " Colorscheme
 
 source $HOME/.config/nvim/plugins/pop-punk.vim
+source $HOME/.config/nvim/plugins/nibble.vim
+source $HOME/.config/nvim/plugins/vivi.vim
 
 call plug#end()
 
-colorscheme 'pop-punk'
+colorscheme shado
+
+" colorscheme murphy
+" colorscheme koehler
+" colorscheme pop-punk
+
+" colorscheme nibble
 
 let g:terminal_ansi_colors = pop_punk#AnsiColors()
 

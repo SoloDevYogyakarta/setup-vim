@@ -1,0 +1,1 @@
+Plug 'cmoscofian/nibble-vim'

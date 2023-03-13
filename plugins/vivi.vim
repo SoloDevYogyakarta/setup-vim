@@ -1,0 +1,1 @@
+Plug 'Shadorain/shadotheme'
