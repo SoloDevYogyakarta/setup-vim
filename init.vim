@@ -21,7 +21,7 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/hackerman.vim
+source $HOME/.config/nvim/plugins/smarties.vim
 
 call plug#end()
 
