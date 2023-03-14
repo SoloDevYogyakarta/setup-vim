@@ -6,7 +6,7 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set encoding=UTF-8
 
 set number
-set relativenumber
+" set relativenumber
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
