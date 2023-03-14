@@ -15,6 +15,7 @@ source $HOME/.config/nvim/plugins/telescope.vim
 source $HOME/.config/nvim/plugins/ale.vim
 source $HOME/.config/nvim/plugins/devicons.vim
 source $HOME/.config/nvim/plugins/jest.vim
+source $HOME/.config/nvim/plugins/williamboman.vim
 
 " Settings
 
@@ -30,3 +31,5 @@ let g:airline_section_c = '🎸 %F'
 
 let g:NERDTreeWinSize=28
 
+let g:loaded_perl_provider = 0
+let g:loaded_ruby_provider = 0
