@@ -8,5 +8,10 @@
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "tsserver.enable": true,
   "tsserver.enableTracing": true,
-  "tailwindCSS.enable": true
+  "tailwindCSS.enable": true,
+  "jest.watch": true,
+  "jest.detectLeaks": true,
+  "jest.watchman": true,
+  "jest.detectOpenHandles": true,
+  "jest.terminalPosition": "right"
 }

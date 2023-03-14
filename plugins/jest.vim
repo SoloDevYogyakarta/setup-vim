@@ -1,0 +1,1 @@
+Plug 'mattkubej/jest.nvim'

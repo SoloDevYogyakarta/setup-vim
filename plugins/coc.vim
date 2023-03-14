@@ -12,6 +12,7 @@ let g:coc_global_extensions = [
   \ 'coc-java',
   \ 'coc-stylelint',
   \ 'coc-git',
+  \ 'coc-jest',
   \ 'coc-css',
   \ 'coc-cssmodules',
   \ 'coc-angular',
