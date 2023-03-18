@@ -24,8 +24,14 @@ source $HOME/.config/nvim/settings.vim
 " Colorscheme
 
 source $HOME/.config/nvim/plugins/smarties.vim
+source $HOME/.config/nvim/plugins/pop-punk.vim
 
 call plug#end()
+
+colorscheme pop-punk
+
+let g:terminal_ansi_colors = pop_punk#AnsiColors()
+let g:airline_theme = 'pop_punk'
 
 let g:airline_section_c = '🎸 %F'
 
