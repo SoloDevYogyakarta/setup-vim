@@ -23,15 +23,11 @@ source $HOME/.config/nvim/settings.vim
 
 " Colorscheme
 
-source $HOME/.config/nvim/plugins/smarties.vim
-source $HOME/.config/nvim/plugins/pop-punk.vim
+Plug 'https://github.com/morhetz/gruvbox'
 
 call plug#end()
 
-colorscheme pop-punk
-
-let g:terminal_ansi_colors = pop_punk#AnsiColors()
-let g:airline_theme = 'pop_punk'
+colorscheme gruvbox
 
 let g:airline_section_c = '🎸 %F'
 
@@ -39,3 +35,4 @@ let g:NERDTreeWinSize=28
 
 let g:loaded_perl_provider = 0
 let g:loaded_ruby_provider = 0
+
