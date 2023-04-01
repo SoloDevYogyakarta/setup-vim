@@ -1,5 +1,10 @@
-" Author : Kenedy Nopriansyah
-" Email : kenedinvsyh_@outlook.co.id
+"" -- == == == == == == == == == == == == == == ==
+" -- == == == == == == == == == == == == == == ==
+" -- Author   : Kenedy Nopriansyah | Handsome
+" -- Country  : Indonesia
+" -- Email    : kenedinvsyh_@outlook.co.id
+" -- == == == == == == == == == == == == == == ==
+" -- == == == == == == == == == == == == == == ==
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

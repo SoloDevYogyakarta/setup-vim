@@ -1,7 +1,10 @@
-" commentary.vim - Comment stuff out
-" Maintainer:   Tim Pope <http://tpo.pe/>
-" Version:      1.3
-" GetLatestVimScripts: 3695 1 :AutoInstall: commentary.vim
+"" -- == == == == == == == == == == == == == == ==
+" -- == == == == == == == == == == == == == == ==
+" -- Author   : Kenedy Nopriansyah | Handsome
+" -- Country  : Indonesia
+" -- Email    : kenedinvsyh_@outlook.co.id
+" -- == == == == == == == == == == == == == == ==
+" -- == == == == == == == == == == == == == == ==
 
 if exists("g:loaded_commentary") || v:version < 700
   finish

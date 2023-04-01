@@ -1,5 +1,10 @@
-" Author : Kenedy Nopriansyah
-" Email : kenedivsyh_@outlook.co.id
+"" -- == == == == == == == == == == == == == == ==
+" -- == == == == == == == == == == == == == == ==
+" -- Author   : Kenedy Nopriansyah | Handsome
+" -- Country  : Indonesia
+" -- Email    : kenedinvsyh_@outlook.co.id
+" -- == == == == == == == == == == == == == == ==
+" -- == == == == == == == == == == == == == == ==
 
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
